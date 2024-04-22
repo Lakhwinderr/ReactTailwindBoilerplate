@@ -1,10 +1,10 @@
-import DemoComponent from "./DemoComponent";
-
+import Panel from "./components/Panel/Panel";
+import "./App.css";
 
 function App() {
   return (
     <div>
-   <DemoComponent />
+      <Panel />
     </div>
   );
 }
